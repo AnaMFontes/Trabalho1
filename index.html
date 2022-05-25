@@ -12,30 +12,28 @@
 
 <body> 
     
-    <header id="Titulo">
+    <header id="Titulo"> <!--alocando titulos e links de paginas-->
         <nav>
             <ul class="nav-list">
-                <li><a class="nome" href="index.html">Calcular idade</a></li>
-                <li><a class="nome" href="index2.html">Criador</a></li>
+                <li><a class="index1" href="index.html">Calcular idade</a></li>
+                <li><a class="index2" href="index2.html">Criador</a></li>
             </ul>
         </nav>
     </header> 
-    <ul><!---colocando a imagem-->  
+
+    <ul><!---colocando os gifs-->  
         <li>
             <img src="gif-aniversario2.gif" width="640" height="400">
             <img src="gif-aniversario3.gif" width="510" height="400">
         </li>
     </ul>
 
-    
-
-</section>
-<section id="Idade">
-    <input class="input1" type="text" id="AnoAtual" name="txtAnoA" placeholder="Ano Atual" />
-    <input class="input2" type="text" id="AnoNasc" name="txtAnoN" placeholder="Ano do seu nascimento" />
-    <button class="btn" id="btnCalcIdade" type="button" onclick="calculaIdade()"> Calcular </button>
-    <div class="MostraIdade" id="resp" >Sua idade é: </div>
-</section>
+    <section id="Idade"> <!--criando espaços de input para receber informações, o botão e o espaço para mostrar o resultado-->
+        <input class="input1" type="text" id="AnoAtual" name="txtAnoA" placeholder="Ano Atual" />
+        <input class="input2" type="text" id="AnoNasc" name="txtAnoN" placeholder="Ano do seu nascimento" />
+        <button class="btn" id="btnCalcIdade" type="button" onclick="calculaIdade()"> Calcular </button>
+        <div class="MostraIdade" id="resp" >Sua idade é: </div>
+    </section>
 
 </body>
 

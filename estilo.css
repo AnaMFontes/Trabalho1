@@ -11,7 +11,7 @@ ul{
     display: flex;
 }
 
-.nav-list {
+.nav-list { /* nav-list relacionados aos gifs*/
     list-style: none;
     display: flex;
 }
@@ -21,29 +21,37 @@ ul{
     margin-left: 32px;
 }
 
-#Titulo {
+#Titulo { /*configurando os titulos "Calcular Idade" e "Criador"*/
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     height: 2rem;
 }
 
-.nome {
-    margin: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.index1 { /*pagina 2 com a função de calcular idade*/
+    margin: 50px;
     font-size: 2rem;
-    color:white;
-    text-align: center;
-    letter-spacing: 2px;
+    color:grey;
+    letter-spacing: 1px;
+    background-color: white;
 }
-.conteudo{
+
+.index2 { /*pagina 2 com o texto sobre a criadora*/
+    margin: 400px;
+    font-size: 2rem;
+    color:grey;
+    letter-spacing: 1px;
+    background-color:white;
+}
+
+.conteudo{ /*configurando o texto da pagina 2*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-.img-programadora{
+.img-programadora{ /*configurando a imagem da pagina 2*/
     top:50%;
     transform: translateY(20%);
 }
@@ -52,15 +60,16 @@ ul{
     align-items: right;
     color: white;
     font-size: 2rem;
-    font-family:Georgia,'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
 .texto-criador{
     color: white;
     font-size: 1rem;
     align-items: right;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
+/*configurando os input, botão e espaço de mostrar resultado*/
 #Idade {
     height: auto;
     display: flex;
