@@ -4,19 +4,50 @@ body{ /*função para colocar um plano de fundo*/
     background-size:cover; /*preencher toda a pagina*/
 }
 
-.TituloDestaque {
-    text-align: center;
-    color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 2rem;
-    position: relative;
-}
-
 ul{
     list-style: none; /*para tirar os pontos de lista do lado da imagem*/
     justify-content: center;
     height: auto;
     display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 2px;
+    margin-left: 32px;
+}
+
+#Titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 2rem;
+}
+
+.nome {
+    margin: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.titulo-criador{
+    align-items: right;
+    color: white;
+    font-size: 2rem;
+    font-family:Georgia,'Times New Roman', Times, serif;
+}
+.texto-criador{
+    color: white;
+    font-size: 1rem;
+    align-items: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #Idade {
