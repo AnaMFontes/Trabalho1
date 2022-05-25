@@ -37,6 +37,17 @@ ul{
     text-align: center;
     letter-spacing: 2px;
 }
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-programadora{
+    top:50%;
+    transform: translateY(20%);
+}
+
 .titulo-criador{
     align-items: right;
     color: white;
