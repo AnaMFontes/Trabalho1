@@ -1,0 +1,74 @@
+body{ /*função para colocar um plano de fundo*/
+    background-image: url('spectrum-gradient.svg'); /*link do background*/
+    background-repeat: no-repeat; /*sem repetição da imagem*/
+    background-size:cover; /*preencher toda a pagina*/
+}
+
+.TituloDestaque {
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    position: relative;
+}
+
+ul{
+    list-style: none; /*para tirar os pontos de lista do lado da imagem*/
+    justify-content: center;
+    height: auto;
+    display: flex;
+}
+
+#Idade {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction:ltr;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.MostraIdade{
+    background-color: white;
+    width: 15rem;
+    height: 2rem;
+    margin: 7px;
+    font-size: 20px;
+    color:grey;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;  
+}
+
+.input1{
+    width: 15rem;
+    height: 2rem;
+    margin: 7px;
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+.input2{
+    width: 15rem;
+    height: 2rem;
+    margin: 7px;
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+}
+
+.btn{
+    width: 8rem;
+    height: 2rem;
+    margin: 7px;
+    font-size: 20px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    color: grey;
+}
